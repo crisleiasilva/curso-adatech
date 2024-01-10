@@ -1,3 +1,8 @@
+let idadex = window.prompt('Qual é sua idade?')
+window.alert('O usuario tem' + idadex ,  'anos de idade')
+
+
+
 //Utilize sempre o Camel case no JS
 var nomeDoCliente = "Crislei" //string
 var idade = 41  //number
@@ -11,6 +16,6 @@ const mediaDoAluno = 7.5;
 
 notaDoAluno = 9;
 
-
 console.log(notaDoAluno);
 console.log(mediaDoAluno);
+
