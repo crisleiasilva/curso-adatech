@@ -1,0 +1,1 @@
+const msg = idade >= 18 ? 'Menor de idade' : 'Menor de idade'
