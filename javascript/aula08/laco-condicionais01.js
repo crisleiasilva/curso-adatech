@@ -1,13 +1,13 @@
 
 const prompt = require('readline-sync')
 
-// //let saldo = Number (prompt.question("Qual eh o seu saldo?"))
+let saldo = Number (prompt.question("Qual eh o seu saldo?"));
 
-// //while(saldo < 0) {
-//  //saldo = Number (prompt.question('Saldo invalido! Por favor, informe novamente:'))
-// //}
-// //
-// //console.log(saldo)
+while(saldo < 0) {
+saldo = Number (prompt.question("Saldo invalido! Por favor, informe novamente:"));
+}
+
+console.log(saldo)
 // //Exemplo 2
 // let notaDoAluno = Number(prompt.question('Informe a nota do aluno:'))
 
@@ -57,12 +57,12 @@ const prompt = require('readline-sync')
 //   contador++
 //  }
 
-//* Do-While
+// // Do-While
 
-let saldo 
+// let saldo 
 
-do {
-  saldo = Number(prompt.question("Informe um saldo válido:"))
-} while(saldo < 0) 
+// do {
+//   saldo = Number(prompt.question("Informe um saldo válido:"))
+// } while(saldo < 0) 
 
-console.log(saldo)
+// console.log(saldo)

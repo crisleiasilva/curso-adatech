@@ -26,7 +26,7 @@ if(mediaDoAluno >= 7){
 //Preciso ser maior de idade
 //Preciso ter CNH
 
-const idadePessoa = 15
+const idadePessoa = 18
 const temCNH = true 
 if (idadePessoa >=18 && temCNH) {
   console.log('Você pode dirigir!')

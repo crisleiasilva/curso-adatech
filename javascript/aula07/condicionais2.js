@@ -1,6 +1,6 @@
 //Util quando sua variavel possui valores específicos
 
-const permissoes = 'aluno' // 'aluno' || 'professor' || 'admin'
+const permissoes = 'admin' // 'aluno' || 'professor' || 'admin'
 
 switch(permissoes) {
   case 'aluno':

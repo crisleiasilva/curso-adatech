@@ -1,5 +1,7 @@
-const prompt = require('readline-sync');
+const prompt = require("readline-sync");
 
-let idade = prompt.question('Qual eh sua idade?');
+const idade = prompt.question('Qual eh sua idade?');
+
+const idadeNumber = Number(idade);
 
 console.log(idade);
