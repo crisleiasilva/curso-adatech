@@ -1,7 +1,13 @@
-let saldo = Number (prompt.question("Qual eh o seu saldo?"));
+let somaDasNotas = 0 ;//Acumulador
+ let qtdNotasValidas = 0; //Acumulador com qti de notas válidas
 
-while(saldo < 0) {
-saldo = Number (prompt.question("Saldo invalido! Por favor, informe novamente:"));
-}
+ while(notaDoAluno >= 0) {
+   somaDasNotas += notaDoAluno;  //Incremento acumulador(somadasNotas)
+ qtdNotasValidas ++
 
-console.log(saldo)
+  notaDoAluno = Number(prompt.question ('Informe a próxima nota:'));
+ }
+ console.log(somaDasNotas);
+ console.log(qtdNotasValidas);
+
+ console.log('Media das notas dos alunos =', somaDasNotas / qtdNotasValidas);
